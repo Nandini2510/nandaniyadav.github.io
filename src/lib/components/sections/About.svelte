@@ -17,18 +17,7 @@
   <div
     class="absolute left-0 right-0 top-0 bg-primary h-12 md:h-14 lg:h-16 border-slate-900 dark:border-slate-700 border-y-4 flex items-center"
   >
-    <MarqueeText direction="left">
-      <div class="flex items-center gap-8 mx-4">
-        <h4>● Welcome to my website!</h4>
-        <h4>● Mobile development</h4>
-        <h4>● Back-end development</h4>
-        <h4>● Front-end development</h4>
-        <h4>● Android</h4>
-        <h4>● IOS</h4>
-        <h4>● Gamedev</h4>
-        <h4>● Illustrator</h4>
-      </div>
-    </MarqueeText>
+
   </div>
   <Wrappper>
     <div class="w-full pb-20">
@@ -38,13 +27,13 @@
           <Saos animation={'scale-up-center 1s cubic-bezier(0.4, 0, 0.2, 1) both'} once>
             <h1 class="my-4 md:my-6 lg:my-8 dark:text-white duration-500" id="about">About Me</h1>
             <p class="dark:text-slate-300">
-              I'm Ikhsan, a passionate software engineer with a love for problem-solving and
-              creating impactful solutions. I thrive on continuous learning and enjoy collaborating
-              with teams to tackle challenges and deliver high-quality software solutions. Let's
-              build something great together!
+              I am a proactive and results-driven Software Engineer with a strong background in full-stack development. 
+            My experience includes optimizing systems, enhancing performance, and leading projects in React, JavaScript, Node.js, and MongoDB. 
+            I hold a Master's degree in Computer Science from the University of Florida, specializing in advanced data structures and distributed systems. 
+            I am passionate about leveraging technology to solve complex problems and thrive in collaborative, innovative environments.
             </p>
             <p class="my-6 dark:text-slate-300">
-              To learn more about my experience and skills, feel free to visit my LinkedIn profile:
+              Feel free to visit my LinkedIn profile:
             </p>
             <a href={linkedInLink} target="_blank">
               <Button variant={primaryButton} noDarkVariant={false}>
@@ -52,6 +41,7 @@
               </Button>
             </a>
           </Saos>
+          
         </div>
         <div class="w-full">
           <!-- TODO add my photo -->

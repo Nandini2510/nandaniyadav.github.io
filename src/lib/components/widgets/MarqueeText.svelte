@@ -41,8 +41,8 @@
   }
 
   .content {
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+    /* animation-timing-function: linear; */
+    /* animation-iteration-count: infinite; */
   }
 
   @keyframes animation-L {

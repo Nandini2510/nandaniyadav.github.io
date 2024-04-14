@@ -85,7 +85,7 @@
         </div>
 
         <!-- Stats -->
-        <div
+        <!-- <div
           class="{cardColors[cardColor.key].dark.bg}
 						bg-slate-900 absolute text-white dark:text-text flex justify-evenly bottom-0 left-0 max-sm:right-0 gap-4 duration-200 py-2 px-4 font-poppins"
         >
@@ -110,13 +110,13 @@
               {(project.downloadsCount ?? 0) <= 1 ? 'Download' : 'Downloads'}
             </span>
           </div>
-        </div>
+        </div> -->
       </div>
 
       <!-- Project description -->
       <div class="pt-2 pb-14 px-4">
         <h3 class="mb-2 dark:text-white">{project.name}</h3>
-        <p class="dark:text-slate-300 line-clamp-3">{project.description}</p>
+        <!-- <p class="dark:text-slate-300 line-clamp-3">{project.description}</p> -->
       </div>
 
       <!-- Project tags -->

@@ -80,13 +80,13 @@
                 ? 'dark:text-white'
                 : 'dark:text-text'} font-mechsuit text-sm md:text-lg z-0 transition-colors duration-500"
             >
-              IKHSaN3ADI
+              Nandani
             </h3>
 
             <h3
               class="font-mechsuit dark:hidden text-sm md:text-lg absolute -top-1 right-1 transition-colors duration-500"
             >
-              IKHSaN3ADI
+              Nandani
             </h3>
           </a>
         </div>

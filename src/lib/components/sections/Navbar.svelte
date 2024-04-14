@@ -81,13 +81,13 @@
                 ? 'dark:text-white'
                 : 'dark:text-text'} font-mechsuit text-sm md:text-lg z-0 transition-colors duration-500"
             >
-              IKHSaN3ADI
+              Nandani
             </h3>
 
             <h3
               class="font-mechsuit dark:hidden text-sm md:text-lg absolute -top-1 right-1 transition-colors duration-500"
             >
-              IKHSaN3ADI
+              Nandani
             </h3>
           </a>
         </div>
@@ -98,9 +98,20 @@
         class="hidden w-full pr-12 xl:pr-16 pl-16 xl:pl-24 lg:flex justify-evenly flex-wrap items-center text-text
 				{isBgTransparent ? 'dark:text-white' : 'dark:text-text'}"
       >
-        {#each navLinks as link}
-          <a class="hover:underline active:text-indigo-500" href="#{link.link}">{link.text}</a>
-        {/each}
+      {#each navLinks as link}
+      {#if link.text === "Resume"}
+      
+          <!-- Content specific to the 'resume' link -->
+          <a href="https://drive.google.com/file/d/1DQEsW2AXUxfsgKT5nKnbPrG2VXihInCO/view?usp=drive_link" target="_blank">
+            <!-- Add content for resume link -->
+            Resume
+          </a>
+      
+      {:else}
+        <!-- Content for other links -->
+        <a class="hover:underline active:text-indigo-500" href="#{link.link}">{link.text}</a>
+      {/if}
+    {/each}
       </div>
 
       <!-- Hamburger menu -->

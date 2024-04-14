@@ -60,10 +60,10 @@
 
         <!-- Project description -->
         <div class="w-full">
-          <p class="dark:text-slate-300 text-center sm:text-left">{project.description}</p>
+          <!-- <p class="dark:text-slate-300 text-center sm:text-left">{project.description}</p> -->
 
           <!-- Stars, forks, downloads -->
-          <div
+          <!-- <div
             class="pt-4 flex gap-4 w-full justify-center sm:justify-normal dark:text-white font-poppins"
           >
             <div class="flex gap-2 items-center">
@@ -81,7 +81,7 @@
               {project.downloadsCount}
               {(project.downloadsCount ?? 0) <= 1 ? 'Download' : 'Downloads'}
             </div>
-          </div>
+          </div> -->
 
           <!-- Tags -->
           <div

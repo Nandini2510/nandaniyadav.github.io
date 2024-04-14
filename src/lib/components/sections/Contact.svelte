@@ -1,6 +1,6 @@
 <script lang="ts">
   import { submitContactRequest } from '$lib/api/contact';
-  import { whatsappLink, emailLink } from '$lib/api/socials';
+  import { emailLink } from '$lib/api/socials';
 
   import type { ButtonColorVariant } from '$lib/components/colors';
   import { inputClass } from '$lib/components/form';

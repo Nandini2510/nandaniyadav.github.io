@@ -14,22 +14,22 @@
 </script>
 
 <footer>
-  <div class="w-full bg-slate-800 h-max border-t-4 border-slate-800 dark:border-white">
+  <div class="w-full">
     <Wrappper>
       <div class="w-full py-4">
-        <div
+        <!-- <div
           class="py-6 flex {noNavLinks
             ? 'justify-center'
             : 'justify-between'} gap-4 md:gap-12 lg:gap-36 xl:gap-52 items-center text-white"
         >
-          <!-- Emblem -->
+         
           <div class="flex">
             <div class="h-24 w-24 sm:w-28 sm:h-28 md:w-36 md:h-36 my-auto">
               <EmblemSquare />
             </div>
           </div>
 
-          <!-- Navlinks -->
+       
           {#if !noNavLinks}
             <div
               class="w-full flex justify-center md:justify-around flex-wrap items-center text-white gap-x-8 gap-y-6"
@@ -41,9 +41,9 @@
           {/if}
         </div>
 
-        <hr class="my-4 border-slate-500" />
+        <hr class="my-4 border-slate-500" /> -->
 
-        <!-- Socials -->
+       
         <div class="flex justify-center gap-4 my-10 opacity-90 h-10">
           {#each footerSocials as social}
             <a href={social.link} target="_blank" class="group">
@@ -57,32 +57,18 @@
             </a>
           {/each}
         </div>
-
+        <hr class="my-4 border-slate-500" /> 
         <!-- Copyright & Credit -->
+      
         <p class="text-slate-200 text-center text-sm">
-          &copy; 2023, made with ❤️ by
+          &copy; 2024, made by
           <a
             href={noNavLinks ? '/' : '#social'}
             target="_blank"
-            class="text-primary hover:underline active:text-custom-3">Ikhsan Satriadi</a
-          >, using
-          <a
-            href="https://svelte.dev"
-            target="_blank"
-            class="text-orange-500 hover:underline active:text-white"
+            class="text-primary hover:underline active:text-custom-3">Nandani Yadav</a
           >
-            SvelteKit
-          </a>
-          and
-          <a
-            href="https://tailwindcss.com"
-            target="_blank"
-            class="text-cyan-500 hover:underline active:text-white"
-          >
-            Tailwind CSS
-          </a>
         </p>
       </div>
-    </Wrappper>
-  </div>
+      </Wrappper>
+    </div>
 </footer>

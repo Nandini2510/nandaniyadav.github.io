@@ -8,58 +8,30 @@ import Medium from '$lib/components/graphics/social/Medium.svelte';
 import Showwcase from '$lib/components/graphics/social/Showwcase.svelte';
 import Telegram from '$lib/components/graphics/social/Telegram.svelte';
 
-export const githubLink = 'https://github.com/ikhsan3adi/';
-export const linkedInLink = 'https://www.linkedin.com/in/ikhsan-satriadi/';
-export const whatsappLink = 'https://wa.me/62895338593923';
-export const emailLink = 'mailto:ikhsansatriadi175@gmail.com';
+export const githubLink = 'https://github.com/nandini2510/';
+export const linkedInLink = 'https://www.linkedin.com/in/nandini2510/';
+export const emailLink = 'mailto:ynandini0625@gmail.com';
 
 export const socials = [
   {
     social: 'Github',
-    name: '@ikhsan3adi',
+    name: '@nandini2510',
     link: githubLink,
     colorVariant: { key: 'github' } as ButtonColorVariant,
     icon: Github
   },
   {
     social: 'LinkedIn',
-    name: 'Ikhsan Satriadi',
+    name: 'Nandani Yadav',
     link: linkedInLink,
     colorVariant: { key: 'linkedIn' } as ButtonColorVariant,
     icon: LinkedIn
   },
-  {
-    social: 'Facebook',
-    name: 'Ikhsan Satriadi',
-    link: 'https://facebook.com/onetrd',
-    colorVariant: { key: 'facebook' } as ButtonColorVariant,
-    icon: Facebook
-  },
-  {
-    social: 'Instagram',
-    name: '@ikhsan3adi',
-    link: 'https://instagram.com/ikhsan3adi',
-    colorVariant: { key: 'instagram' } as ButtonColorVariant,
-    icon: Instagram
-  },
-  {
-    social: 'Telegram',
-    name: 'Ikhsan',
-    link: 'https://t.me/ikhsan3adi',
-    colorVariant: { key: 'telegram' } as ButtonColorVariant,
-    icon: Telegram
-  },
-  {
-    social: 'Showwcase',
-    name: '@ikhsan3adi',
-    link: 'https://www.showwcase.com/ikhsan3adi',
-    colorVariant: { key: 'telegram' } as ButtonColorVariant,
-    icon: Showwcase
-  },
+
   {
     social: 'Medium',
-    name: 'Ikhsan Satriadi',
-    link: 'https://medium.com/@ikhsansatriadi175',
+    name: 'Nandani Yadav',
+    link: 'https://medium.com/@nandani2510',
     colorVariant: { key: 'medium' } as ButtonColorVariant,
     icon: Medium
   }

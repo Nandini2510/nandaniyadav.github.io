@@ -1,65 +1,80 @@
-const githubApiLink = 'https://api.github.com/repos/ikhsan3adi';
-
+const githubApiLink = 'https://api.github.com/repos/nandini2510';
 /** @type {import('./types').Project[]} */
 const initialProjects = [
   {
-    id: 'backtix',
-    name: 'BackTix - Event & ticketing app',
-    url: `${githubApiLink}/backtix`,
-    description: '',
-    imageUrl: 'https://github.com/ikhsan3adi/backtix/raw/main/assets/banner.png',
-    readmeUrl: 'https://raw.githubusercontent.com/ikhsan3adi/backtix/master/README.md',
-    tags: ['flutter', 'nestjs', 'svelte']
-  },
-  {
-    id: 'flutter-auction-app',
-    name: 'Online Auction App',
-    url: `${githubApiLink}/flutter-auction-app`,
-    description: '',
-    imageUrl: 'https://github.com/ikhsan3adi/Flutter-Auction-App/raw/master/images/banner.png',
-    readmeUrl: 'https://raw.githubusercontent.com/ikhsan3adi/flutter-auction-app/master/README.md',
-    tags: ['flutter']
-  },
-  {
-    id: 'sistem-perpustakaan-qr-code',
-    name: 'Sistem Perpustakaan QR Code',
-    url: `${githubApiLink}/sistem-perpustakaan-qr-code`,
+    id: 'bittorrent-protocol',
+    name: 'Bittorrent Protocol',
+    url: `${githubApiLink}/Bittorrent-Protocol`,
     description: '',
     imageUrl:
-      'https://github.com/ikhsan3adi/sistem-perpustakaan-qr-code/raw/main/screenshots/home.png',
-    readmeUrl:
-      'https://raw.githubusercontent.com/ikhsan3adi/sistem-perpustakaan-qr-code/main/README.md',
+      'https://github.com/Nandini2510/Bittorrent-Protocol/blob/main/bittorrent.jpg?raw=true',
+    readmeUrl: 'https://github.com/Nandini2510/Bittorrent-Protocol',
+    tags: ['Computer networks', 'P2P']
+  },
+  {
+    id: 'gossip-simulator',
+    name: 'Gossip-Simulator',
+    url: `${githubApiLink}/GossipSimulator`,
+    description: '',
+    imageUrl:
+      'https://github.com/Nandini2510/GossipSimulator/blob/main/gossip-protocol.jpg?raw=true',
+    readmeUrl: 'https://github.com/Nandini2510/GossipSimulator',
+    tags: ['Distributed Systems']
+  },
+  {
+    id: 'buy-sell-stock',
+    name: 'Buy and Sell Stock in Matrix',
+    url: `${githubApiLink}/Buy-And-Sell-Stock-2D`,
+    description: '',
+    imageUrl:
+      'https://github.com/Nandini2510/Buy-And-Sell-Stock-2D/blob/main/algorithm.jpg?raw=true',
+    readmeUrl: 'https://github.com/Nandini2510/Buy-And-Sell-Stock-2D',
+    tags: ['Algorithms']
+  },
+  {
+    id: 'chord-protocol',
+    name: 'Chord Protocol',
+    url: `${githubApiLink}/Chord-protocol`,
+    description: '',
+    imageUrl: 'https://github.com/Nandini2510/Chord-protocol/blob/main/chord.jpg?raw=true',
+    readmeUrl: 'https://github.com/Nandini2510/Chord-protocol',
+    tags: ['Distributed Systems']
+  },
+  {
+    id: 'crypto-quiz-app',
+    name: 'Crypto Quiz App',
+    url: `${githubApiLink}/Crypto-quiz-app`,
+    description: '',
+    imageUrl: 'https://github.com/Nandini2510/Crypto-quiz-app/blob/master/quiz.jpg?raw=true',
+    readmeUrl: 'https://github.com/Nandini2510/Crypto-quiz-app',
     tags: ['codeigniter', 'php']
   },
   {
-    id: 'flutter-celenganku-clone',
-    name: 'Celenganku App Clone',
-    url: `${githubApiLink}/flutter-celenganku-clone`,
+    id: 'Spam Detection with ML',
+    name: 'Spam Detection',
+    url: `${githubApiLink}/Spam-detection-with-ML`,
     description: '',
-    imageUrl:
-      'https://github.com/ikhsan3adi/flutter_celenganku_app_clone/raw/master/screenshots/screenshot-1.png',
-    readmeUrl:
-      'https://raw.githubusercontent.com/ikhsan3adi/flutter-celenganku-clone/master/README.md',
-    tags: ['flutter']
+    imageUrl: 'https://github.com/Nandini2510/Spam-detection-with-ML/blob/master/spam.jpg?raw=true',
+    readmeUrl: 'https://github.com/Nandini2510/Spam-detection-with-ML',
+    tags: ['html', 'typescript']
   },
   {
-    id: 'absensi-sekolah-qr-code',
-    name: 'Sistem Absensi QR Code',
-    url: `${githubApiLink}/absensi-sekolah-qr-code`,
+    id: 'gator-taxi',
+    name: 'Gator Taxi System',
+    url: `${githubApiLink}/gator-taxi`,
     description: '',
-    imageUrl:
-      'https://github.com/ikhsan3adi/absensi-sekolah-qr-code/raw/master/screenshots/hero.png',
-    readmeUrl:
-      'https://raw.githubusercontent.com/ikhsan3adi/absensi-sekolah-qr-code/master/README.md',
-    tags: ['codeigniter', 'php']
+    imageUrl: 'https://github.com/Nandini2510/gator-taxi/blob/main/gator-taxi.jpg?raw=true',
+    readmeUrl: 'https://github.com/Nandini2510/gator-taxi',
+    tags: ['algorithm', 'minHeap', 'rbtree']
   },
   {
-    id: 'portfolio-website',
-    name: 'Portfolio website',
-    url: `${githubApiLink}/ikhsan3adi.github.io`,
+    id: 'california-wildfire-prediction',
+    name: 'California Wildfire Prediction',
+    url: `${githubApiLink}/California-Wildfire-Prediction`,
     description: '',
-    imageUrl: 'https://github.com/ikhsan3adi/ikhsan3adi.github.io/raw/main/images/preview.png',
-    readmeUrl: 'https://raw.githubusercontent.com/ikhsan3adi/ikhsan3adi.github.io/master/README.md',
+    imageUrl:
+      'https://github.com/Nandini2510/California-Wildfire-Prediction/blob/main/wildfire.jpg?raw=true',
+    readmeUrl: 'https://github.com/Nandini2510/California-Wildfire-Prediction',
     tags: ['html', 'typescript']
   }
 ];

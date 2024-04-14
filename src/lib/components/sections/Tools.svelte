@@ -56,7 +56,7 @@
                 <div
                   class="border-b-4 w-full border-slate-900 absolute top-0 h-12 flex justify-start"
                 >
-                  <h4 class="my-auto mx-4">Mobile apps</h4>
+                  <h4 class="my-auto mx-4">Web apps</h4>
                 </div>
                 <div
                   class="flex md:flex-wrap my-auto mx-2 gap-2 gap-y-4 pt-8 items-center justify-evenly"
@@ -160,7 +160,7 @@
                     <div
                       class="border-t-4 w-full border-slate-900 h-12 absolute bottom-0 flex justify-start"
                     >
-                      <h4 class="my-auto mx-4">DevOps</h4>
+                      <h4 class="my-auto mx-4">Cloud</h4>
                     </div>
                   </div>
                 </Saos>
@@ -168,7 +168,7 @@
                 <Saos animation={'scale-up-center 2s cubic-bezier(0.4, 0, 0.2, 1) both'} once>
                   <div class="w-full h-[200px] flex flex-col bg-custom-3 border-2 border-slate-900">
                     <div class="border-b-4 w-full border-slate-900 h-12 flex justify-start">
-                      <h4 class="my-auto mx-4">Design</h4>
+                      <h4 class="my-auto mx-4">Data</h4>
                     </div>
                     <div class="w-full my-auto mx-auto">
                       <div class="flex flex-wrap flex-auto gap-2 justify-evenly">
