@@ -59,7 +59,7 @@
         class="flex flex-wrap sm:flex-nowrap justify-between gap-8 md:gap-16 lg:gap-24 xl:gap-36"
       >
         <!-- Whatsapp Button -->
-        <a href={whatsappLink} target="_blank" class="w-full">
+        <!-- <a href="#" target="_blank" class="w-full">
           <Saos animation={'scale-up-center 1s cubic-bezier(0.4, 0, 0.2, 1) both'} once>
             <Button
               noDarkVariant={false}
@@ -73,7 +73,7 @@
               <span>Whatsapp me</span>
             </Button>
           </Saos>
-        </a>
+        </a> -->
         <!-- Email Button -->
         <a href={emailLink} target="_blank" class="w-full">
           <Saos animation={'scale-up-center 1s cubic-bezier(0.4, 0, 0.2, 1) both'} once>

@@ -50,7 +50,7 @@ const initialProjects = [
     tags: ['codeigniter', 'php']
   },
   {
-    id: 'Spam Detection with ML',
+    id: 'spam-detection',
     name: 'Spam Detection',
     url: `${githubApiLink}/Spam-detection-with-ML`,
     description: '',

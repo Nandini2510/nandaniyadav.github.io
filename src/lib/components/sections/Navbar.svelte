@@ -102,7 +102,7 @@
       {#if link.text === "Resume"}
       
           <!-- Content specific to the 'resume' link -->
-          <a href="https://drive.google.com/file/d/1DQEsW2AXUxfsgKT5nKnbPrG2VXihInCO/view?usp=drive_link" target="_blank">
+          <a href="https://drive.google.com/file/d/1DQEsW2AXUxfsgKT5nKnbPrG2VXihInCO/view?usp=drive_link" target="_blank" id="resume">
             <!-- Add content for resume link -->
             Resume
           </a>

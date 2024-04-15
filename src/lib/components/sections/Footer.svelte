@@ -46,7 +46,7 @@
        
         <div class="flex justify-center gap-4 my-10 opacity-90 h-10">
           {#each footerSocials as social}
-            <a href={social.link} target="_blank" class="group">
+            <a href={social.link} target="_blank" class="group" id="social">
               <div class="w-10 h-10 flex overflow-hidden">
                 <div
                   class="w-10 h-10 text-transparent stroke-slate-400 group-hover:stroke-slate-100 group-active:stroke-primary"

@@ -3,14 +3,10 @@
 
   import Navbar from '$lib/components/sections/Navbar.svelte';
   import About from '$lib/components/sections/About.svelte';
-  import Contact from '$lib/components/sections/Contact.svelte';
   import Footer from '$lib/components/sections/Footer.svelte';
   import Hero from '$lib/components/sections/Hero.svelte';
   import Portfolio from '$lib/components/sections/Portfolio.svelte';
-  import Social from '$lib/components/sections/Social.svelte';
-  import Tools from '$lib/components/sections/Tools.svelte';
   import Certifications from '$lib/components/sections/Certifications.svelte';
-  import Resume from '$lib/components/sections/Resume.svelte';
   export let data: PageData;
 </script>
 
@@ -19,9 +15,6 @@
   <Hero />
   <About />
   <Portfolio fetch={data.fetch} projectService={data.projectService} />
-  <!-- <Tools /> -->
   <Certifications />
-  <!-- <Resume/> -->
-  <!-- <Social /> -->
   <Footer />
 </main>

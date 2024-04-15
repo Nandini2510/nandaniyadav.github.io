@@ -4,8 +4,6 @@ export const navLinks: NavLink[] = [
   { text: 'Home', link: 'home' },
   { text: 'About', link: 'about' },
   { text: 'Portfolio', link: 'portfolio' },
-  // { text: 'Tools', link: 'tools' },
-  // { text: 'Social', link: 'social' },
   { text: 'Certifications', link: 'certification' },
   { text: 'Resume', link: 'resume' }
 ];

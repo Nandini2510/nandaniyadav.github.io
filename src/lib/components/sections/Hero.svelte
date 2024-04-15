@@ -2,7 +2,6 @@
   import type { ButtonColorVariant } from '$lib/components/colors';
 
   import { emailLink } from '$lib/api/socials';
-  import Whatsapp from '$lib/components/graphics/social/Whatsapp.svelte';
   import Email from '$lib/components/graphics/social/Email.svelte';
   import bg from '$lib/components/graphics/hero-bg.svg';
   import Saos from 'saos';
