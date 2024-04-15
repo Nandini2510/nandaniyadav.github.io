@@ -1,11 +1,7 @@
-# Portfolio - [Ikhsan Satriadi](https://github.com/ikhsan3adi)
+# Portfolio - [Nandani Yadav](https://github.com/nandini2510)
 
-> https://ikhsan3adi.github.io
+> https://nandaniyadav.github.io
 
-[![GitHub Pages](https://github.com/ikhsan3adi/ikhsan3adi.github.io/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/ikhsan3adi/ikhsan3adi.github.io/actions/workflows/gh-pages.yml)
-[![pages-build-deployment](https://github.com/ikhsan3adi/ikhsan3adi.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/ikhsan3adi/ikhsan3adi.github.io/actions/workflows/pages/pages-build-deployment)
-
-![Cover Image](https://github.com/ikhsan3adi/ikhsan3adi.github.io/raw/main/images/preview.png)
 
 Welcome to my portfolio! Here, you will find a showcase of my skills, projects, and experiences as a software developer.
 
@@ -49,25 +45,6 @@ Welcome to my portfolio! Here, you will find a showcase of my skills, projects, 
 
 ## Screenshots
 
-### Projects & Project Detail
 
-| Light                                                                                                                | Dark                                                                                                               |
-| -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| ![Projects light](https://github.com/ikhsan3adi/ikhsan3adi.github.io/raw/main/images/projects-light.png)             | ![Projects dark](https://github.com/ikhsan3adi/ikhsan3adi.github.io/raw/main/images/projects-dark.png)             |
-| ![Project Detail light](https://github.com/ikhsan3adi/ikhsan3adi.github.io/raw/main/images/project-detail-light.png) | ![Project Detail dark](https://github.com/ikhsan3adi/ikhsan3adi.github.io/raw/main/images/project-detail-dark.png) |
-
-### Social & Contact
-
-| Light                                                                                                  | Dark                                                                                                 |
-| ------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------- |
-| ![Contact light](https://github.com/ikhsan3adi/ikhsan3adi.github.io/raw/main/images/contact-light.png) | ![Contact dark](https://github.com/ikhsan3adi/ikhsan3adi.github.io/raw/main/images/contact-dark.png) |
-
-## Contributing
-
-Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
-
-## Author
-
-[@ikhsan3adi](https://github.com/ikhsan3adi)
 
 Thank you for visiting my portfolio website, and I hope you enjoy exploring my projects and experiences!
